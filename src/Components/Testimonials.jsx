@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className='testimonials'>
       <h3>Testimonials from my happy clients!</h3>
       <div className='testimonial'>
         <img className='testimonial-image' src='/Images/testimonial1.jpeg' alt="testimonial"/>
