@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    color: var(--textColor);
+}
+
+body {
+    background-color: #97a07d;
+}
+
+:root{
+    --maincolor: #2b592d;
+    --maincolorLight: #5e9461;
+    --secondaryColor: #97a07d;
+    --textColor: #eee;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--maincolor);
+    color: var(--textColor);
+}
+
+.active {
+    background-color: var(--maincolorLight);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 15;
+}
+
+nav .title{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+nav .title:hover {
+    color: var(--secondaryColor);
+    transition: .5s;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display:block;
+    color: var(--textColor);
+    text-decoration: none;
+    padding: 0 0.7rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+
+nav li a:hover {
+    color: var(--secondaryColor);
+    transition: .5s;
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+    color: var(--textColor);
+    background-color: var(--maincolor);
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vw;
+}
+
+.bio-title {
+    font-size: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bio-img {
+    display: block;
+    padding-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 15px;
+}
+  
+.contact-title {
+    font-size: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact-img {
+    display: block;
+    padding-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.text-on-image{
+    position: absolute;
+    right: 25vw;
+    left: 25vw;
+    top: 15%;
+    color: var(--textColor);
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: var(--textColor);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: var(--textColor);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+    background-color: #97a07d;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+    background-color: #97a07d;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+}
+
+.testimonial-image {
+    max-width: 800px;
+}
+
+
+
+@media only screen and (max-width:1024px){
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--maincolor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .responsive_nav{
+        transform: none;
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav li{
+        font-size: 1.5rem
+    }
+}
