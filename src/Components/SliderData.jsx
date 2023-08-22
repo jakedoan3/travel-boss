@@ -1,19 +1,19 @@
 export const SliderData = [
     {
         image: '/Images/travel1.jpeg',
-        text: 'Travel like a boss!'
+        text: 'Your future rapidly approaches'
     },
     {
         image: '/Images/travel2.jpeg',
-        text: "We really out here"
+        text: "Find your beach"
     },
     {
         image: '/Images/travel3.jpeg',
-        text: "Hell yeah"
+        text: "Industry-leading service"
     },
     {
         image: '/Images/travel4.jpeg',
-        text: "Go sicko mode!"
+        text: "Fully customize your itinerary"
     },
 
 ]

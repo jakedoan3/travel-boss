@@ -1,10 +1,14 @@
 import React from 'react'
+import ContactForm from '../Components/ContactForm'
 
 const Contact = () => {
   return (
-    <div>
-      <h3 className='contact-title'>Contact me</h3>
+    <div className='contact'>
       <img className="contact-img" src="/Images/travel6.jpeg" alt='contact' />
+      <h3 className='contact-title'>Contact me</h3>
+      <p className='contact-body'>Let's find your new favorite place together.</p>
+      <ContactForm />
+      
     </div>
   )
 }

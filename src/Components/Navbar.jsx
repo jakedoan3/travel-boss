@@ -13,18 +13,18 @@ const Navbar = () => {
   return (
     <header>
       <nav ref={navRef}>
-        <Link className="title" to="/">
+        <Link className="title" to="/" onClick={showNavbar}>
           Travel Boss
         </Link>
         <ul>
           <li>
-            <NavLink to="/bio">Bio</NavLink>
+            <NavLink onClick={showNavbar} to="/bio">Bio</NavLink>
           </li>
           {/* <li>
             <NavLink to="/testimonials">Testimonials</NavLink>
           </li> */}
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink onClick={showNavbar} to="/contact">Contact</NavLink>
           </li>
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

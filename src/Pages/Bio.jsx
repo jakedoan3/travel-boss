@@ -2,10 +2,10 @@ import React from "react";
 
 const Bio = () => {
   return (
-    <div >
+    <div className="bio">
       <img className="bio-img" src="/Images/bio.jpeg" alt="bio" />
       <h3 className="bio-title">About me</h3>
-      <div className="bio">
+      <div className="bio-body">
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum beatae
           possimus debitis assumenda reiciendis nihil, magni culpa architecto?
