@@ -20,11 +20,12 @@ const Navbar = () => {
           <li>
             <NavLink onClick={showNavbar} to="/bio">Bio</NavLink>
           </li>
-          <li>
-            <NavLink to="/testimonials">Testimonials</NavLink>
-          </li>
+  
           <li>
             <NavLink onClick={showNavbar} to="/contact">Contact</NavLink>
+          </li>
+          <li>
+            <NavLink onClick={showNavbar} to="/whereto">Where to?</NavLink>
           </li>
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
