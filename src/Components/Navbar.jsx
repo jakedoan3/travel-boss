@@ -20,9 +20,9 @@ const Navbar = () => {
           <li>
             <NavLink onClick={showNavbar} to="/bio">Bio</NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink to="/testimonials">Testimonials</NavLink>
-          </li> */}
+          </li>
           <li>
             <NavLink onClick={showNavbar} to="/contact">Contact</NavLink>
           </li>
