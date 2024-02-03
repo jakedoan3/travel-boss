@@ -1,8 +1,10 @@
 import React, {useRef} from 'react'
+import { useNavigate } from "react-router-dom";
 import emailjs from '@emailjs/browser'
 
 const ContactForm = () => {
     const form = useRef();
+    const navigate = useNavigate();
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -10,6 +12,7 @@ const ContactForm = () => {
       emailjs.sendForm('service_09tsoka', 'travel-boss-template', form.current, 'nMnrLLdsoNIyQquxC')
         .then((result) => {
             console.log(result.text);
+            navigate('/')
         }, (error) => {
             console.log(error.text);
         });

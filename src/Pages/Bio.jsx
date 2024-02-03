@@ -7,48 +7,11 @@ const Bio = () => {
       <h3 className="bio-title">About me</h3>
       <div className="bio-body">
         <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum beatae
-          possimus debitis assumenda reiciendis nihil, magni culpa architecto?
-          Deleniti exercitationem earum animi nulla architecto quibusdam
-          ratione, repudiandae similique necessitatibus placeat quod officia
-          nisi nesciunt dignissimos iusto, odio blanditiis rerum? Voluptate
-          officiis quos nisi magni sit harum similique, dolor nihil maiores
-          fugit, corrupti commodi deleniti sequi culpa! Ex tempore alias ipsam,
-          natus reprehenderit commodi illum iure debitis quibusdam rerum,
-          obcaecati, ullam voluptas distinctio adipisci blanditiis vitae quod
-          ipsa quas. Asperiores, illo quo exercitationem possimus odit quisquam
-          natus similique fugit corrupti sed iste harum molestias non reiciendis
-          aliquam magnam quidem rem. Vero.
+        Hey there! My name is Nicole Stacey, but friends call me Nicki. I have been a 'planner' all my life and would organize any reason to celebrate something since I was in middle school. Over the last 30+ years, I have helped create personalized travel and vacations for my own family, girls' weekends, excursions abroad, and several dozen trips to Disney World. I have a knack for finding one-of-a-kind experiences and have a great relationship with VRBO and AirBNB.
         </div>
         <br />
         <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum beatae
-          possimus debitis assumenda reiciendis nihil, magni culpa architecto?
-          Deleniti exercitationem earum animi nulla architecto quibusdam
-          ratione, repudiandae similique necessitatibus placeat quod officia
-          nisi nesciunt dignissimos iusto, odio blanditiis rerum? Voluptate
-          officiis quos nisi magni sit harum similique, dolor nihil maiores
-          fugit, corrupti commodi deleniti sequi culpa! Ex tempore alias ipsam,
-          natus reprehenderit commodi illum iure debitis quibusdam rerum,
-          obcaecati, ullam voluptas distinctio adipisci blanditiis vitae quod
-          ipsa quas. Asperiores, illo quo exercitationem possimus odit quisquam
-          natus similique fugit corrupti sed iste harum molestias non reiciendis
-          aliquam magnam quidem rem. Vero.
-        </div>
-        <br />
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum beatae
-          possimus debitis assumenda reiciendis nihil, magni culpa architecto?
-          Deleniti exercitationem earum animi nulla architecto quibusdam
-          ratione, repudiandae similique necessitatibus placeat quod officia
-          nisi nesciunt dignissimos iusto, odio blanditiis rerum? Voluptate
-          officiis quos nisi magni sit harum similique, dolor nihil maiores
-          fugit, corrupti commodi deleniti sequi culpa! Ex tempore alias ipsam,
-          natus reprehenderit commodi illum iure debitis quibusdam rerum,
-          obcaecati, ullam voluptas distinctio adipisci blanditiis vitae quod
-          ipsa quas. Asperiores, illo quo exercitationem possimus odit quisquam
-          natus similique fugit corrupti sed iste harum molestias non reiciendis
-          aliquam magnam quidem rem. Vero.
+        I'd love nothing more than to help research, organize, and personalize a trip for you! Reach out to me today for a free consultation and let’s talk about it!
         </div>
       </div>
     </div>
