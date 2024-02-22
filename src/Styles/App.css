@@ -107,8 +107,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10vw;
+  padding: 5vw;
 }
+
+
 
 .bio-title {
   font-size: 32px;
@@ -122,8 +124,18 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  padding: 1%;
+  width: 45vw;
   border-radius: 15px;
+}
+
+.bio-img-main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vw;
+  border-radius: 15px;
+  padding-bottom: 2%;
 }
 
 .contact {
@@ -169,12 +181,17 @@ footer {
   background-color: var(--maincolorLight);
   color: var(--textColor);
   border-radius: 5px;
-  width: 20vw;
+  width: 45vw;
+  height: 5vh;
   border: none;
-  font-size: 1.5vh;
+  font-size: 2.5vh;
   min-width: 10%;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.form-main {
+  height: 40vh;
 }
 
 .form-button {
@@ -337,6 +354,9 @@ footer {
     right: 2rem;
   }
 
+  .form-field {
+    width: 60vw;
+  }
   nav li {
     font-size: 1.5rem;
   }

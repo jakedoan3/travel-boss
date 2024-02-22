@@ -1,7 +1,7 @@
 export const SliderData = [
     {
         image: '/Images/travel1.jpeg',
-        text: 'Your future rapidly approaches'
+        text: 'Vacation mode: On'
     },
     {
         image: '/Images/travel2.jpeg',

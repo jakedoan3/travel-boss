@@ -3,7 +3,7 @@ import React from "react";
 const Bio = () => {
   return (
     <div className="bio">
-      {/* <img className="bio-img" src="/Images/bio.jpeg" alt="bio" /> */}
+      <img className="bio-img-main" src="/Images/bio2.jpg" alt="bio" />
       <h3 className="bio-title">About me</h3>
       <div className="bio-body">
         <div>
@@ -13,7 +13,10 @@ const Bio = () => {
         <div>
         I'd love nothing more than to help research, organize, and personalize a trip for you! Reach out to me today for a free consultation and let’s talk about it!
         </div>
+        
       </div>
+      <img className="bio-img" src="/Images/bio1.jpg" alt="bio" />
+      <img className="bio-img" src="/Images/bio3.jpg" alt="bio" />
     </div>
   );
 };

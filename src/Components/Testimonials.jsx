@@ -33,7 +33,7 @@ const Testimonials = () => {
         <br/>
         Choosing Nicki as your guide is an investment in a journey that's not just memorable, but flawless. With her at the helm, you can relinquish your travel worries and savor every moment of the adventure."
         </p>
-        <h4 className="testimonial-author">~ Jen M., Michigan</h4>
+        <h4 className="testimonial-author">~ Jen M., Arizona</h4>
         <br />
       </div>
       <div className="testimonial">
