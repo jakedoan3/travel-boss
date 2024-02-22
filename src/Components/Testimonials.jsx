@@ -114,7 +114,7 @@ const Testimonials = () => {
           ranging from group dinners, hiking, and yoga to smaller group tours of
           the many wineries by chartered vehicles or bicycle! From the moment
           the group arrived at the estate to the time we left for the airport,
-          Nicki/[company name] went above and beyond to ensure a seamless and
+          Nicki went above and beyond to ensure a seamless and
           memorable experience for all!"
         </p>
         <h4 className="testimonial-author">~ Stacey C., Ohio</h4>
