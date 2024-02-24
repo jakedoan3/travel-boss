@@ -9,13 +9,27 @@
 }
 
 body {
-  background-color: #97a07d;
+  background-color: #65b5f6;
 }
 
-:root {
+.test {
+  color: #e49e85;
+  color: #fdca6b;
+  color: #669fe9;
+  color: #8acce2;
+}
+
+/* :oldroot {
   --maincolor: #2b592d;
   --maincolorLight: #5e9461;
   --secondaryColor: #97a07d;
+  --textColor: #eee;
+} */
+
+:root {
+  --maincolor: #e49e85;
+  --maincolorLight: #fdca6b;
+  --secondaryColor: #8acce2;
   --textColor: #eee;
 }
 
@@ -275,14 +289,14 @@ footer {
 .slide {
   opacity: 0;
   transition-duration: 1s ease;
-  background-color: #97a07d;
+  background-color: #65b5f6;
 }
 
 .slide.active {
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
-  background-color: #97a07d;
+  background-color: #65b5f6;
 }
 
 .testimonials {
