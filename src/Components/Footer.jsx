@@ -17,10 +17,10 @@ const Footer = () => {
         </div>
         <div className="socials">
           <a className="social" href="https://twitter.com/">
-            <ImTwitter size={30} />
+            <ImTwitter size={25} />
           </a>
           <a className="social" href="https://instagram.com/">
-            <GrInstagram size={30} />
+            <GrInstagram size={25} />
           </a>
         </div>
         <p>Copyright 2024 Travel Boss</p>
