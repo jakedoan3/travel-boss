@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 import Bio from "./Pages/Bio";
 import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
-import WhereTo from "./Pages/WhereTo";
+import Itineraries from "./Pages/Itineraries";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path ='/' element={<Home/>}/>
         <Route path ='/bio' element={<Bio/>}/>
         <Route path ='/contact' element={<Contact/>}/>
-        <Route path ='/whereto' element={<WhereTo/>}/>
+        <Route path ='/itineraries' element={<Itineraries/>}/>
       </Routes>
       <Footer/>
     </div>

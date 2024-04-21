@@ -24,9 +24,9 @@ const Navbar = () => {
           <li>
             <NavLink onClick={showNavbar} to="/contact">Contact</NavLink>
           </li>
-          {/* <li>
-            <NavLink onClick={showNavbar} to="/whereto">Where to?</NavLink>
-          </li> */}
+          <li>
+            <NavLink onClick={showNavbar} to="/itineraries">Past Itineraries</NavLink>
+          </li>
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />

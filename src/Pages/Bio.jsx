@@ -11,7 +11,7 @@ const Bio = () => {
         </div>
         <br />
         <div>
-        I'd love nothing more than to help research, organize, and personalize a trip for you! Reach out to me today for a free consultation and let’s talk about it!
+        I'd love nothing more than to help research, organize, and personalize a trip for you! Reach out to me today for a <u>FREE CONSULTATION</u> and let’s talk about it!
         </div>
         
       </div>

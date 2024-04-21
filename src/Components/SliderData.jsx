@@ -9,10 +9,6 @@ export const SliderData = [
     },
     {
         image: '/Images/travel3.jpeg',
-        text: "Industry-leading service"
-    },
-    {
-        image: '/Images/travel4.jpeg',
         text: "Fully customize your itinerary"
     },
 
