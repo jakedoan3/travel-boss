@@ -16,10 +16,10 @@ const Footer = () => {
           </p>
         </div>
         <div className="socials">
-          <a className="social" href="https://twitter.com/">
+          {/* <a className="social" href="https://twitter.com/">
             <ImTwitter size={25} />
-          </a>
-          <a className="social" href="https://instagram.com/">
+          </a> */}
+          <a className="social" href="https://instagram.com/nickithetravelboss">
             <GrInstagram size={25} />
           </a>
         </div>
